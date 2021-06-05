@@ -38,6 +38,8 @@ def stock_graph():
     if inputs == 'Y' or inputs == 'YES':
         plt.plot(sma100, label=inputs + ' 100 Day SMA', color='green')
 
+    print("\nPlotting...\n")
+
     plt.legend(loc='upper left')
     plt.ylabel('Price in USD')
     plt.xlabel('Date')
